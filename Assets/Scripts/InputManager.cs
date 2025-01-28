@@ -4,13 +4,14 @@ using UnityEngine.Events;
 public class InputManager : MonoBehaviour
 {
     public UnityEvent<Vector2> OnMove = new UnityEvent<Vector2>();
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public UnityEvent<float> OnJump = new UnityEvent<float>();
+    [SerializeField] private float jumpHeight = 5f; // initialize jump height 
+
     void Start()
     {
 
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         Vector2 inputVector = Vector2.zero;
@@ -31,5 +32,11 @@ public class InputManager : MonoBehaviour
             inputVector += Vector2.right;
         }
         OnMove?.Invoke(inputVector);
+
+        // make the ball jump
+         if (Input.GetKeyDown(KeyCode.Space)) 
+        {
+            OnJump?.Invoke(jumpHeight);
+        }
     }
 }
