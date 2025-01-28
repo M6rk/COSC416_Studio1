@@ -1,6 +1,6 @@
 # COSC416_Studio1
 
 ### Click the Thumbnail to View the RollABall Video Demo
-#### (VideoDemo/RollABallVideo.mp4)
+#### (www.youtube.com/watch?v=5H_FV2rpQrM)
 
-[![RollABallVideo](VideoDemo/thumbnail.png)](VideoDemo/RollABallVideo.mp4)
+[![RollABallVideo](VideoDemo/thumbnail.png)](https://www.youtube.com/watch?v=5H_FV2rpQrM)
