@@ -205,13 +205,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.10818819, y: 0.6987813, z: -0.10818819, w: 0.6987813}
-  m_LocalPosition: {x: 4.79, y: 4.28, z: -10}
+  m_LocalRotation: {x: 0.44923237, y: -0, z: -0, w: 0.89341503}
+  m_LocalPosition: {x: 15, y: 7.96, z: -17.76}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 17.602, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 53.389, y: 0, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -439,6 +439,7 @@ GameObject:
   - component: {fileID: 945009982}
   - component: {fileID: 945009981}
   - component: {fileID: 945009985}
+  - component: {fileID: 945009986}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -562,6 +563,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &945009986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945009980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c95d284a0c59441bec124e54f9c127, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sphereRigidbody: {fileID: 945009985}
+  ballSpeed: 2
 --- !u!1 &1534709117
 GameObject:
   m_ObjectHideFlags: 0
